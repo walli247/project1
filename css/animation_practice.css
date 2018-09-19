@@ -1,0 +1,70 @@
+/* this is where all of your CSS styles go */
+html,body {
+	width: 100%;
+	height: 100%;
+}
+.text{
+	width: 200px;
+	height: 100px;
+	position: relative;
+	left: 50%;
+	top: 48%; /* for optical centering */
+	margin-top: -50px;
+	margin-left: -100px;
+}
+.font{
+	float: left;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 50px;
+}
+
+.m{
+	position: relative;
+	animation: m_move 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+.e{
+	position: relative;
+	animation: e_move 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+.l{
+	position: relative;
+	animation: l_move 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+.o{
+	position: relative;
+	animation: o_move 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+.n{
+	position: relative;
+	animation: n_move 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+@keyframes m_move{
+	0%{left: 0px; color: black;}
+	100%{left: 75px; color: gold;}
+}
+@keyframes e_move{
+	0%{left: 0px; color: black;}
+	100%{left: 0px; color: gold;}
+}
+@keyframes l_move{
+	0%{left: 0px; color: black;}
+	100%{left: -60px; color: gold;}
+}
+@keyframes o_move{
+	0%{left: 0px; color: black;}
+	100%{left: 16px; color: gold;}
+}
+@keyframes n_move{
+	0%{left: 0px; color: black;}
+	100%{left: 16px; color: gold;}
+}
